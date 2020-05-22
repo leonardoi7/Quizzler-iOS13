@@ -14,16 +14,23 @@ struct QuizBrain {
     var score = 0
     
     let quiz = [
-        Question(q: "Which is the largest organ in the human body?", a: ["Heart", "Skin", "Large Intestine"], correctAnswer: "Skin"),
-        Question(q: "Five dollars is worth how many nickels?", a: ["25", "50", "100"], correctAnswer: "100"),
-        Question(q: "What do the letters in the GMT time zone stand for?", a: ["Global Meridian Time", "Greenwich Mean Time", "General Median Time"], correctAnswer: "Greenwich Mean Time"),
-        Question(q: "What is the French word for 'hat'?", a: ["Chapeau", "Écharpe", "Bonnet"], correctAnswer: "Chapeau"),
-        Question(q: "In past times, what would a gentleman keep in his fob pocket?", a: ["Notebook", "Handkerchief", "Watch"], correctAnswer: "Watch"),
-        Question(q: "How would one say goodbye in Spanish?", a: ["Au Revoir", "Adiós", "Salir"], correctAnswer: "Adiós"),
-        Question(q: "Which of these colours is NOT featured in the logo for Google?", a: ["Green", "Orange", "Blue"], correctAnswer: "Orange"),
-        Question(q: "What alcoholic drink is made from molasses?", a: ["Rum", "Whisky", "Gin"], correctAnswer: "Rum"),
-        Question(q: "What type of animal was Harambe?", a: ["Panda", "Gorilla", "Crocodile"], correctAnswer: "Gorilla"),
-        Question(q: "Where is Tasmania located?", a: ["Indonesia", "Australia", "Scotland"], correctAnswer: "Australia")
+        
+        Question(q: "What is the name of the final course of all 'Mario Kart' video games?", a: ["Dry Dry Desert", "Mario Circuit", "Rainbow Road"], correctAnswer: "Rainbow Road"),
+        Question(q: "Mario originated as a character in which video game?", a: ["Donkey Kong", "Mario Bros", "Mario 64"], correctAnswer: "Donkey Kong"),
+        Question(q: "Nintendo began as a company that sold which products?", a: ["Cars", "Consoles", "Playing cards"], correctAnswer: "Playing cards"),
+        Question(q: "What is Pearl's signature colour in 'Splatoon 2'?", a: ["Red", "Blue", "Pink"], correctAnswer: "Pink"),
+        Question(q: "'Astro Boy' is which type of video game?", a: ["Racing", "Action", "Adventure"], correctAnswer: "Action"),
+        Question(q: "Which was the first Nintendo console for optical discs?", a: ["Gamecube", "NES", "Switch"], correctAnswer: "Gamecube"),
+        Question(q: "In 'Call of Duty: Advanced Warfare,' what's the name of Jack Mitchell's best friend?", a: ["Matt Daymon", "Scott Willis", "Will Irons"], correctAnswer: "Will Irons"),
+        Question(q: "Who is the first character you play in 'Injustice 2?'", a: ["Flash", "Batman", "Superman"], correctAnswer: "Batman"),
+        Question(q: "What was the best selling video game in December 2017?", a: ["New Super Mario Bros", "Call of Duty: WWII", "Rock Band"], correctAnswer: "Call of Duty: WWII"),
+        Question(q: "What was the first video game in the world called?", a: ["Donkey Kong", "Pong", "Ball"], correctAnswer: "Pong"),
+        Question(q: "What is the highest grossing game of all time?", a: ["Mario", "Pokemon", "Zelda"], correctAnswer: "Pokemon"),
+        Question(q: "Which French video game company is publishing the 'Far Cry' series?", a: ["Ubisoft", "Microsoft", "Sega"], correctAnswer: "Ubisoft"),
+        Question(q: "'Kingdom Of Hyrule’ is the main setting for which classic video game franchise?", a: ["Zelda", "Halo", "PacMan"], correctAnswer: "Zelda"),
+        Question(q: "Who is the most famous video game character of all time?", a: ["Link", "Samus", "Mario"], correctAnswer: "Mario"),
+        Question(q: "What's the best selling video game console of all time?", a: ["NES", "Xbox 360", "PlayStation 2"], correctAnswer: "PlayStation 2")
+        
     ]
     
     func getQuestionText() -> String {
